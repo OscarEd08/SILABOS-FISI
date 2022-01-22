@@ -21,11 +21,19 @@ readTextFile("../silabos.json", function(text){
     }
 
     //Se linkea las carreras a partir del JSON
-    var pdfID = document.getElementById("pdf");
+    var pdfSist3 = document.getElementById("sist3");
+    var pdfSist4 = document.getElementById("sist4");
+    var pdfSodt3 = document.getElementById("soft3");
+    var pdfSoft4 = document.getElementById("sotf4");
+
     var cursos = document.querySelectorAll("#boton")
     console.log(cursos)
     cursos.forEach((curso,index) => curso.onclick = function(){
-        pdfID.src = dataCursos.carreras[1].ciclos[0].cursos[index].enlace;
+        pdfSist3.src = dataCursos.carreras[1].ciclos[0].cursos[index].enlace;
+        pdfSist4.src = dataCursos.carreras[1].ciclos[1].cursos[index].enlace;
+        pdfSoft3.src = dataCursos.carreras[0].ciclos[0].cursos[index].enlace;
+        pdfSoft4.src = dataCursos.carreras[0].ciclos[1].cursos[index].enlace;
+
     })
 });
   
