@@ -27,7 +27,7 @@ readTextFile("../silabos.json", function(text){
     var pdfSist3 = document.getElementById("sist3");
     var pdfSist4 = document.getElementById("sist4");
     var pdfSoft3 = document.getElementById("soft3");
-    var pdfSoft4 = document.getElementById("sotf4");
+    var pdfSoft4 = document.getElementById("soft4");
 
     var cursos1 = document.querySelectorAll("#boton1");
     var cursos2 = document.querySelectorAll("#boton2");
