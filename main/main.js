@@ -19,7 +19,7 @@ readTextFile("../silabos.json", function(text){
 
 var pdfID = document.getElementById("pdf");
 var pdf = ["https://drive.google.com/file/d/12i2f-3EmejtRmgGxeKFFt_HLOqVNwkcA/preview",
-            "http://www.etsii.upm.es/ingor/estadistica/Grado/dTablas.pdf",
+            "https://drive.google.com/file/d/127H2LvO4fzeYAoafdAdDGquZNpyqoLJm/preview",
             "http://www.est.uc3m.es/esp/nueva_docencia/comp_col_leg/ing_tec_inf_gestion/estadistica/Documentacion/Tablas/tablas2caras.pdf",
             "http://www.etsii.upm.es/ingor/estadistica/Grado/dTablas.pdf",
             "http://www.est.uc3m.es/esp/nueva_docencia/comp_col_leg/ing_tec_inf_gestion/estadistica/Documentacion/Tablas/tablas2caras.pdf",
