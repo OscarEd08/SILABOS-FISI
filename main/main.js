@@ -11,6 +11,7 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
+
 //Using JSON
 readTextFile("../silabos.json", function(text){
     dataCursos = JSON.parse(text);  
@@ -28,4 +29,4 @@ readTextFile("../silabos.json", function(text){
         pdfID.src = dataCursos.carreras[1].ciclos[0].cursos[index].enlace;
     })
 });
-  
+
