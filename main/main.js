@@ -17,13 +17,16 @@ readTextFile("../silabos.json", function(text){
     console.log(dataCursos);
     //Se crea la lista de las carreras a partir del JSON
     for(i=0; i<7; i++){
-        $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + dataCursos.carreras[1].ciclos[0].cursos[i].nombre + '</a>').appendTo('#lista-cursos');
+        $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + dataCursos.carreras[1].ciclos[0].cursos[i].nombre + '</a>').appendTo('#cursos-sist3');
+        $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + dataCursos.carreras[1].ciclos[1].cursos[i].nombre + '</a>').appendTo('#cursos-sist4');
+        $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + dataCursos.carreras[0].ciclos[0].cursos[i].nombre + '</a>').appendTo('#cursos-soft3');
+        $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + dataCursos.carreras[0].ciclos[1].cursos[i].nombre + '</a>').appendTo('#cursos-soft4');
     }
 
     //Se linkea las carreras a partir del JSON
     var pdfSist3 = document.getElementById("sist3");
     var pdfSist4 = document.getElementById("sist4");
-    var pdfSodt3 = document.getElementById("soft3");
+    var pdfSoft3 = document.getElementById("soft3");
     var pdfSoft4 = document.getElementById("sotf4");
 
     var cursos = document.querySelectorAll("#boton")
