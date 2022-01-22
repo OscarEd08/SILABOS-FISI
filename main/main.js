@@ -67,13 +67,52 @@ var sist4 = ["Algoritmica y Programación Orientada a Objetos", "Marketing",
              "Contabilidad General", "Procesos de Negocios", "Métodos Numéricos", 
              "Probabilidades y muestreo", "Fisica Electrónica y Sistemas Digitales"]
 
+// SISTEMAS
+//TERCER CICLO
 //Se crean las listas de los cursos
 for(i=0; i<7; i++){
     $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + sist3[i] + '</a>').appendTo('#lista-cursos');
 }
-
+// Se asignan los links a cada boton
 var cursos = document.querySelectorAll("#boton")
 console.log(cursos)
 cursos.forEach((curso,index) => curso.onclick = function(){
     pdfID.src = pdfSist3[index];
+})
+
+//CUARTO CICLO
+for(i=0; i<7; i++){
+    //modificar
+    $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + sist4[i] + '</a>').appendTo('#lista-cursos');
+}
+// Se asignan los links a cada boton
+var cursos = document.querySelectorAll("#boton")
+console.log(cursos)
+cursos.forEach((curso,index) => curso.onclick = function(){
+    pdfID.src = pdfSist4[index];
+})
+
+// SOFTWARE
+//TERCER CICLO
+//Se crean las listas de los cursos
+for(i=0; i<7; i++){
+    $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + soft3[i] + '</a>').appendTo('#lista-cursos');
+}
+// Se asignan los links a cada boton
+var cursos = document.querySelectorAll("#boton")
+console.log(cursos)
+cursos.forEach((curso,index) => curso.onclick = function(){
+    pdfID.src = pdfSoft3[index];
+})
+
+//CUARTO CICLO
+for(i=0; i<7; i++){
+    //modificar
+    $('<a id="boton" class="list-group-item list-group-item-action pb-4 pt-4">' + soft4[i] + '</a>').appendTo('#lista-cursos');
+}
+// Se asignan los links a cada boton
+var cursos = document.querySelectorAll("#boton")
+console.log(cursos)
+cursos.forEach((curso,index) => curso.onclick = function(){
+    pdfID.src = pdfSoft4[index];
 })
