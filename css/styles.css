@@ -3,3 +3,21 @@
     padding: 0;
     max-width: 100%;
 }
+
+.border 
+{
+    background-color: #70191c;
+    border-color: #70191c !important;
+}
+
+.title
+{
+    color: #70191c;
+    background-color: whitesmoke;
+}
+
+.carrera
+{
+    color: #70191c;
+    background-color: whitesmoke;
+}
