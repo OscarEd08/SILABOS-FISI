@@ -5,19 +5,15 @@
 }
 
 .border 
-{
-    background-color: #70191c;
-    border-color: #70191c !important;
+{   
+    background-color: #263554;
+    border-color: #263554 !important;
 }
 
 .title
 {
-    color: #70191c;
-    background-color: whitesmoke;
-}
-
-.carrera
-{
-    color: #70191c;
-    background-color: whitesmoke;
+    color: black;
+    background-color: #F4EDEA;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
